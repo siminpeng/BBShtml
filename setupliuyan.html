@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <meta charset="UTF-8"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>留言板</title>
+</head>
+<body>
+
+	<!--S=nav  -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+
+				<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<!-- Be sure to leave the brand out there if you want it shown -->
+				<a class="brand" href="#">留言板</a>
+
+
+				<!-- Everything you want hidden at 940px or less, place within here -->
+				<div class="nav-collapse collapse">
+					<!-- .nav, .navbar-search, .navbar-form, etc -->
+					<ul class="nav">
+						<li class="active"><a href="#">主页</a></li>
+						<li><a href="#about">用户注册</a></li>
+						<li><a href="#contact">发表留言</a></li>
+						<li><a href="#contact">查看留言</a></li>
+						<li><a href="#contact">查询留言</a></li>
+						<li><a href="#contact">版主管理</a></li>
+						<li><a href="#contact">注销登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--E=nav  -->
+
+	<!-- Subhead
+		================================================== -->
+	<header class="headbg">
+		<div class="container">
+			<h1>留言本</h1>
+			<p class="lead">
+				你一言！我一语！
+			</p>
+		</div>
+	</header>
+
+	<!-- S=标题 -->
+	<div class="container" >
+		<div class="toptile clearfix">
+			<div class="pull-left ">
+				<sapn>今天是：</sapn>
+			</div>
+			<!-- 右边的内容 -->
+			<ul class="breadcrumb pull-right">
+				<span>当前位置:</span>
+				<!-- <li><a href="#">首页</a> <span class="divider">/</span></li>
+				<li><a href="#">Library</a> <span class="divider">/</span></li> -->
+				<li class="active">发表留言</li>
+			</ul>
+		</div>
+	</div>
+	<!-- E=标题 -->
+	
+
+	<!-- S=主要内容 -->
+	<div class="container">
+		<div class="row">
+	<!-- S=left -->
+		<div class="span3 clearfix" >
+			<!-- 登录 -->		
+			<div class="bodyleft clearfix">
+				<h4 class=" text-center botborder">用户登录</h4>
+				<div class="index-login">
+					<form >
+						<label>用户名</label>
+				        <input type="text" class="input-block-level" placeholder="用户名">
+				        <label>密码</label>
+				        <input type="password" class="input-block-level" placeholder="密码">
+				        <button class="btn  btn-primary center" type="submit">登录</button>
+				     </form>
+				 </div>
+			</div>
+
+			<div class="bodyleft martop10">
+				<h4 class=" text-center botborder">最新留言</h4>
+				<div class="container">
+					<ul class="botpading5 leftpad20">
+						<li>最新体验</li>
+						<li>每日必读</li>
+						<li>实践活动</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			
+	<!-- E=left -->
+	<!-- S=right -->
+		<div class="span9  clearfix" >
+			<div class="bodyright">
+			<!-- 发表留言部分 -->
+				<div class="setupliuyan">
+					<h4 class=" text-center botborder ">发表留言</h4>
+					<form class="form-horizontal martop20">
+						<div class="control-group ">
+						    <label class="control-label" for="username">留言主题</label>
+						    <div class="controls">
+						      <input type="text" id="username"  class="input-xlarge"  placeholder="留言主题">
+						    </div>
+						</div>
+
+						<div class="control-group">
+						    <label class="control-label" for="inputPassword">留言内容</label>
+						    <div class="controls">
+						      <textarea rows="6" class="input-xxlarge"></textarea>
+						    </div>
+						</div>
+
+						
+						
+						<div class="control-group">
+						     <button type="submit " class="btn controls btn-primary">发表</button>
+						      <button class="btn  btn-primary " type="reset">重写</button>
+						</div>
+						</div>
+					</form>
+				
+				</div>
+			</div><!-- bodyright -->
+
+		</div><!-- span9 -->
+	<!-- E=right -->
+		</div> 
+	</div>
+	<!-- E=主要内容 -->
+
+	<!-- S=.footer -->
+	<footer class="footer">
+		<div class="container">
+			<p> 版权所有</p>
+		</div>
+	</footer>
+	<!-- E=.footer -->
+
+ 	<!-- script -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	!function  ($) {
+    		 $(function () {
+    		 	$('#myCarousel').carousel();
+    		 })  
+    	}(window.jQuery)
+
+    </script>
+</body>
+</html>
+
+
+   
+  

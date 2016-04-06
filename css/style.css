@@ -1,0 +1,122 @@
+@charset"utf-8";
+ body {
+	padding-top: 40px; 
+	/* 60px to make the container go all the way to the bottom of the topbar */
+}
+/*轮播
+#myCarousel{
+	margin:0px;
+	padding-bottom: 10px;
+}
+#myCarousel img{
+	margin: 0 auto;
+}*/
+.headbg{
+	padding:25px 0;
+	color: #fff;
+	/* background: linear-gradient(45deg, #020031 0%,#6d3353 100%);
+	 text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);*/
+	background: linear-gradient(45deg, #506E90 0%,#3DA5FC 100%);/*线性渐变*/
+	/*background-color:#FB963C;*/
+}
+/******************************************/
+.toptile{
+	padding:10px 0px 6px 0px;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 10px;
+}
+
+.toptile .breadcrumb{
+	margin:0;
+	padding:0;
+	background-color:#fff;
+}
+/******************************************/
+/*左边*/
+.bodyleft{	
+	padding:10px 0 0 0;
+	border: 1px solid #eeeeee;
+	border-radius: 5px;/*添加圆角*/
+	overflow: hidden;
+}
+/*登录框左边*/
+.index-login{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/******************************************/
+/*mian右边的部分*/
+.bodyright{
+	min-height: 400px;
+	margin: 0;
+	padding:0 0 10px 0;	
+}
+.pager{
+	margin:0;
+}
+.bodyright .tlakitem{
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+}
+/******************************************/
+/*signup*/
+.signup{
+	min-height: 369px;
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.signup .face{
+	line-height: 55px;
+	height:62px;
+}
+
+.signup s{
+	display: inline-block;
+	width: 60px;
+	height:60px;
+	margin-left: 20px;
+	border:1px solid  #eeeeee;;
+}
+/******************************************/
+/*发表留言*/
+.setupliuyan{
+	min-height: 369px;
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+/******************************************/
+/*页脚部分*/
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 5px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+/***********************/
+
+.botborder{
+	padding-bottom: 5px;
+	border-bottom:1px solid #eeeeee;
+}
+.botpading5{
+	padding-bottom: 5px;
+}
+.leftpad10{
+	padding-left: 10px;
+}
+.leftpad20{
+	padding-left: 20px;
+}
+.martop10{
+	margin-top: 10px;
+}
+.martop20{
+	margin-top: 20px;
+}
