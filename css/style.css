@@ -91,6 +91,29 @@
 	padding-top: 10px;
 }
 /******************************************/
+/*回复部分*/
+.replycontent{
+	padding:10px;
+}
+.repiyitem{
+	padding:10px;
+	padding-left: 30px;
+}
+/******************************************/
+/*用户信息部分*/
+.user-imag{
+	padding:5px;
+	margin: 10px;
+}
+.user-info{
+	padding:5px;
+	margin:5px;
+}
+.liuyancontent{
+	padding:15px;
+	min-height: 70px;
+}
+/******************************************/
 /*页脚部分*/
 .footer {
     text-align: center;
@@ -104,6 +127,13 @@
 .botborder{
 	padding-bottom: 5px;
 	border-bottom:1px solid #eeeeee;
+}
+.leftborder{
+	padding-left: 15px;
+	border-left:1px solid #eeeeee;
+}
+.topborder{
+	border-top:1px solid #eeeeee;
 }
 .botpading5{
 	padding-bottom: 5px;
@@ -119,4 +149,13 @@
 }
 .martop20{
 	margin-top: 20px;
+}
+.marright20{
+	margin-right: 20px;
+}
+.marginleft10{
+	margin-left: 10px;
+}
+.padtop5{
+	padding-top: 5px;
 }
